@@ -1,19 +1,24 @@
 body {
-    min-width: 1200px;
-    height: 10286.33px;
+    /*min-width: 1200px;*/
+    width: 100%;
+    /*max-width: 1200px;*/
+    /*height: 10286.33px;
     top: 298px;
-    left: 200px;
+    left: 200px;*/
 }
 
 .centered-block {
     margin: 0 auto;
-    width: 1200px;
 }
 
 .bkg {
     background: #f3f5ff;
 }
 
+.bottom-border {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 50px;
+}
 
 .intro-block {
     padding: 120px;
@@ -37,7 +42,6 @@ body {
     line-height: 29px;
     margin-top: 25px;
     text-align: center;
-
 }
 
 .intro-block-button {
@@ -57,12 +61,7 @@ body {
     text-align: center;
 }
 
-/*.centered-block-2 {
-    margin: 0 auto;
-    width: 1200px;
-    height: 341.75px;
-}
-
+/*Начало стротельства общественного центра*/
 .intro-block-button-2 {
     border-radius: 50px;
     font-family: "Inter", sans-serif;
@@ -100,7 +99,12 @@ body {
     text-align: center;
 }
 
-*/
+.block-image {
+    width: 100%;
+    margin-top: 19px;
+}
+
+/*Клуб "Ровесник"*/
 .content-block {
     display: flex;
     align-items: flex-start;
@@ -138,6 +142,7 @@ body {
 
 .image-section {
     flex: 1;
+    width: 100%;
     max-width: 20%;
     position: relative;
 }
