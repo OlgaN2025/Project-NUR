@@ -1,10 +1,15 @@
 body {
-    /*min-width: 1200px;*/
+
     width: 100%;
-    /*max-width: 1200px;*/
-    /*height: 10286.33px;
-    top: 298px;
-    left: 200px;*/
+
+}
+
+.img {
+
+    margin-top: 19px;
+    width: 100%;
+
+
 }
 
 .centered-block {
@@ -21,8 +26,9 @@ body {
 }
 
 .intro-block {
-    padding: 120px;
+    padding: 30px;
     text-align: center;
+    width: 1200px;
 }
 
 .intro-block-header {
@@ -34,12 +40,21 @@ body {
     text-align: center;
 }
 
+.block-header {
+    font-family: "Inter", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #0B0A33;
+    line-height: 56px;
+    text-align: center;
+}
+
 .intro-block-subheader {
     font-family: "Inter", serif;
-    font-size: 17px;
+    font-size: 25px;
     font-weight: 500;
     color: #7A7D9C;
-    line-height: 29px;
+    line-height: 1.5;
     margin-top: 25px;
     text-align: center;
 }
@@ -62,6 +77,7 @@ body {
 }
 
 /*Начало стротельства общественного центра*/
+
 .intro-block-button-2 {
     border-radius: 50px;
     font-family: "Inter", sans-serif;
@@ -70,12 +86,13 @@ body {
     background: #F3F5FF;
     color: #5335D9;
     border: 0px;
-    height: 45.75px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     padding-left: 24px;
     padding-right: 24px;
-    cursor: pointer;
     margin-top: 10px;
     text-align: center;
+    display: inline-block;
 }
 
 .intro-block-header-2 {
@@ -96,19 +113,19 @@ body {
     color: #7A7D9C;
     line-height: 30.1px;
     margin-top: 20px;
-    text-align: center;
+    text-align: justify;
+    margin-bottom: 30px;
 }
 
 .block-image {
     width: 100%;
     margin-top: 19px;
+    object-fit: cover;
 }
 
 /*Клуб "Ровесник"*/
 .content-block {
     display: flex;
-    align-items: flex-start;
-    gap: 97px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
@@ -116,56 +133,25 @@ body {
 }
 
 .text-section {
-    flex: 1;
-    width: 570px;
-    height: 446px;
-}
+    text-align: center;
+    padding-right: 30px;
+    width: 50%;
 
 
-.club-title {
-    font-family: "Inter", serif;
-    width: 700;
-    font-size: 38.6px;
-    line-height: 52px;
-    color: #0B0A33;
-    margin-bottom: 80px;
-}
-
-.club-description {
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-top: 30px;
-    color: #636e72;
-    text-align: justify;
 }
 
 .image-section {
-    flex: 1;
-    width: 100%;
-    max-width: 20%;
-    position: relative;
+    max-width: 50%;
+    object-fit: cover;
+
 }
 
-/*.content-image {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}*\
+/*Предприятия общественного питания*/
+.content-block-2 {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
 
-/*@media (max-width: 768px) {
-    .content-block {
-        flex-direction: column;
-        gap: 25px;
-    }
 
-    .image-section {
-        max-width: 100%;
-        order: -1;
-    }
-
-    .club-title {
-        font-size: 24px;
-    }
-}*\
+}
