@@ -24,9 +24,35 @@
                 Локация туристического маршрута
                 <br>"Легенды Нового Уренгоя"
             </h2>
-            <button class="intro-block-button">Открыть карту маршрута</button>
+            <button class="intro-block-button" onclick="openModal()">Открыть карту маршрута</button>
         </div>
     </div>
+
+    <!--<div style="position:relative;overflow:hidden;"><a
+            href="https://yandex.ru/maps/11230/noviy-urengoy/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:0px;">Новый Уренгой</a><a
+            href="https://yandex.ru/maps/11230/noviy-urengoy/?l=sat%2Cskl&ll=76.650061%2C66.092368&mode=usermaps&source=constructorLink&um=constructor%3A38241077b84875ded3064ebb84266e3ea3b1db6a3a0111af96bfb1b2319eee82&utm_medium=mapframe&utm_source=maps&z=12"
+            style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты — транспорт, навигация, поиск
+            мест</a><iframe
+            src="https://yandex.ru/map-widget/v1/?l=sat%2Cskl&ll=76.650061%2C66.092368&mode=usermaps&source=constructorLink&um=constructor%3A38241077b84875ded3064ebb84266e3ea3b1db6a3a0111af96bfb1b2319eee82&z=12"
+            width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+    -->
+    <div class="modal" id="modal" onclick="closeModal()">
+        <div class="mapModal">
+            <div style="position:relative;overflow:hidden;"><a
+                    href="https://yandex.ru/maps/11230/noviy-urengoy/?utm_medium=mapframe&utm_source=maps"
+                    style="color:#eee;font-size:12px;position:absolute;top:0px;">Новый Уренгой</a><a
+                    href="https://yandex.ru/maps/11230/noviy-urengoy/?l=sat%2Cskl&ll=76.650061%2C66.092368&mode=usermaps&source=constructorLink&um=constructor%3A38241077b84875ded3064ebb84266e3ea3b1db6a3a0111af96bfb1b2319eee82&utm_medium=mapframe&utm_source=maps&z=12"
+                    style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты — транспорт, навигация,
+                    поиск мест</a><iframe
+                    src="https://yandex.ru/map-widget/v1/?l=sat%2Cskl&ll=76.650061%2C66.092368&mode=usermaps&source=constructorLink&um=constructor%3A38241077b84875ded3064ebb84266e3ea3b1db6a3a0111af96bfb1b2319eee82&z=12"
+                    width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+
 
 
     <div class="intro-block centered-block bottom-border">
@@ -62,7 +88,7 @@
     </div>
 
     <!--Клуб "Ровесник"-->
-    <div class="content-block">
+    <div class="content-block-2">
         <div class="text-section">
             <div class="intro-block-button-2">Часть 2</div>
             <h3 class="block-header">Клуб "Ровесник"</h3>
@@ -115,7 +141,7 @@
 
     </div>
     <!--Общественный центр в повседневной жизни новоуренгойцев-->
-    <div class="content-block">
+    <div class="content-block-2">
         <div class="text-section">
             <div class="intro-block-button-2">Часть 3</div>
             <h3 class="block-header">Общественный центр в повседневной жизни новоуренгойцев</h3>
@@ -126,13 +152,10 @@
             <p class="intro-block-subheader-2">А обращали ли вы внимание, какая большая площадь перед «Уренгоем»? И это
                 не просто так. Ведь каждое утро здесь собирались рабочие в ожидании «вахтовок». А в праздничные дни
                 площадь использовалась для массовых гуляний.</p>
-
         </div>
         <div class="image-section">
             <img src="7.jpg" class="uniform-image" alt="7 Первомай перед «Уренгоем», 1983 год">
             <img src="8.jpg" class="uniform-image" alt="8 Массовое гуляние перед «Уренгоем», 1980-е гг.">
-
-
         </div>
     </div>
     <!--Общественный центр «Уренгой» в наши дни-->

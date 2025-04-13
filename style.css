@@ -114,6 +114,8 @@ body {
     margin-top: 20px;
     text-align: justify;
     margin-bottom: 30px;
+    justify-content: center;
+
 }
 
 .block-image {
@@ -139,14 +141,10 @@ body {
     max-width: 1200px;
 }
 
-/*.image-section {
-    width: 100%;
-    display: grid;
-
-}*/
 
 .uniform-image {
     width: 100%;
+
 }
 
 /*Предприятия общественного питания*/
@@ -156,12 +154,30 @@ body {
     width: 50%;
     margin: 0 auto;
     padding: 30px;
-
-
 }
 
 .image-section {
     width: 100%;
     margin-right: 40px;
+}
 
+.mapModal {
+    background: white;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 500px;
+    -webkit-box-shadow: 0px 0px 30px 14px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 30px 14px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 30px 14px rgba(34, 60, 80, 0.2);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
