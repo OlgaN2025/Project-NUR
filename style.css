@@ -10,6 +10,8 @@ body {
 
 .bkg {
     background: #f3f5ff;
+    /* width: 100%; */
+    /* max-width: 1200px; */
 }
 
 .bottom-border {
