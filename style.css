@@ -4,14 +4,11 @@ body {
 
 .centered-block {
     margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
+    /* max-width: 1200px; */
 }
 
 .bkg {
     background: #f3f5ff;
-    /* width: 100%; */
-    /* max-width: 1200px; */
 }
 
 .bottom-border {
@@ -22,13 +19,13 @@ body {
 .intro-block {
     padding: 30px;
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
     max-width: 1200px;
 }
 
 .intro-block-header {
     font-family: "Inter", sans-serif;
-    font-size: 54px;
+    font-size: 48px;
     font-weight: 700;
     color: #0B0A33;
     line-height: 74px;
