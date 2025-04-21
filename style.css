@@ -25,13 +25,14 @@ body {
 
 .intro-block-header {
     font-family: "Inter", sans-serif;
-    font-size: 54px;
+    font-size: 50px;
     font-weight: 700;
     color: #0B0A33;
     line-height: 74px;
     text-align: center;
     width: 100%;
     max-width: 1200px;
+    padding: 0 10px;
 }
 
 .intro-block-subheader {
