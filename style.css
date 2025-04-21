@@ -5,6 +5,7 @@ body {
 .centered-block {
     margin: 0 auto;
     max-width: 1200px;
+    width: 100%;
 }
 
 .bkg {
@@ -19,7 +20,7 @@ body {
 .intro-block {
     padding: 30px;
     text-align: center;
-    /* width: 100%; */
+    width: 100%;
     max-width: 1200px;
 }
 
