@@ -4,6 +4,7 @@ body {
 
 .centered-block {
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 .bkg {
@@ -32,6 +33,7 @@ body {
     width: 100%;
     max-width: 1200px;
 }
+
 .intro-block-subheader {
     font-family: "Inter", serif;
     font-size: 25px;
@@ -102,6 +104,7 @@ body {
     width: 48%;
     padding: 2%;
 }
+
 .uniform-image-6 {
     width: 100%;
     margin: 30px 15px 10px 0;
