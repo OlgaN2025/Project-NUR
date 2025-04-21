@@ -9,6 +9,8 @@ body {
 
 .bkg {
     background: #f3f5ff;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .bottom-border {
@@ -25,12 +27,23 @@ body {
 
 .intro-block-header {
     font-family: "Inter", sans-serif;
-    font-size: 48px;
+    font-size: 54px;
     font-weight: 700;
     color: #0B0A33;
     line-height: 74px;
     text-align: center;
     width: 100%;
+    max-width: 1200px;
+}
+
+.intro-block-header-2 {
+    font-family: "Inter", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    color: #0B0A33;
+    line-height: 74px;
+    text-align: center;
+    /* width: 100%; */
     max-width: 1200px;
 }
 
